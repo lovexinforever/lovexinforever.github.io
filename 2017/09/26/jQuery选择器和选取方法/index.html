@@ -1,0 +1,1555 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next mist use-motion" lang="en">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="baidu_union_verify" content="284de651038b945bba10cea6d7b62760">
+<meta name="theme-color" content="#222">
+<script src="//cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>
+<link href="//cdn.bootcss.com/pace/1.0.2/themes/pink/pace-theme-flash.css" rel="stylesheet">
+<style>
+    .pace .pace-progress {
+        background: #1E92FB; /*进度条颜色*/
+        height: 3px;
+    }
+    .pace .pace-progress-inner {
+         box-shadow: 0 0 10px #1E92FB, 0 0 5px     #1E92FB; /*阴影颜色*/
+    }
+    .pace .pace-activity {
+        border-top-color: #1E92FB;    /*上边框颜色*/
+        border-left-color: #1E92FB;    /*左边框颜色*/
+    }
+</style>
+
+
+
+  
+  
+    
+    
+  <script src="/lib/pace/pace.min.js?v=1.0.2"></script>
+  <link href="/lib/pace/pace-theme-minimal.min.css?v=1.0.2" rel="stylesheet">
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+  <meta name="google-site-verification" content="WBZD2d44oKZRczV8wuF3x-tbv0joHqcvtdwNeDWAgFY" />
+
+
+
+  <meta name="msvalidate.01" content="8E16E2D0325597241F1AED44F25B6F90" />
+
+
+
+
+  <script>
+  (function(i,s,o,g,r,a,m){i["DaoVoiceObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;a.charset="utf-8";m.parentNode.insertBefore(a,m)})(window,document,"script",('https:' == document.location.protocol ? 'https:' : 'http:') + "//widget.daovoice.io/widget/0f81ff2f.js","daovoice")
+  daovoice('init', {
+      app_id: "22d64a6f"
+    });
+  daovoice('update');
+  </script>
+
+
+
+  <meta name="baidu-site-verification" content="SJQSUEakSB" />
+
+
+
+
+
+
+
+  
+  
+    
+  
+  <link href="//cdn.jsdelivr.net/fancybox/2.1.5/jquery.fancybox.min.css" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+    
+      
+    
+
+    
+  
+
+  
+    
+      
+    
+
+    
+  
+
+  
+    
+      
+    
+
+    
+  
+
+  
+    
+      
+    
+
+    
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Days One:300,300italic,400,400italic,700,700italic|Nosifer:300,300italic,400,400italic,700,700italic|Merienda One:300,300italic,400,400italic,700,700italic|Eater:300,300italic,400,400italic,700,700italic|Cormorant Infant:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+  
+
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="HTML5,js,JQuery,选择器," />
+
+
+
+
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico?v=5.1.4" />
+
+
+
+
+
+
+<meta name="description" content="在 h5 开发中,JQuery 选择器经常用到,也尤其重要,用好选择器,能让你的开发事半功倍.下面是整理的 jquery 选择的使用和方法.">
+<meta name="keywords" content="HTML5,js,JQuery,选择器">
+<meta property="og:type" content="article">
+<meta property="og:title" content="jQuery选择器和选取方法(一)">
+<meta property="og:url" content="https://timding.top/2017/09/26/jQuery选择器和选取方法/index.html">
+<meta property="og:site_name" content="TIM&#39;S BLOG">
+<meta property="og:description" content="在 h5 开发中,JQuery 选择器经常用到,也尤其重要,用好选择器,能让你的开发事半功倍.下面是整理的 jquery 选择的使用和方法.">
+<meta property="og:locale" content="en">
+<meta property="og:updated_time" content="2018-06-25T11:29:16.885Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="jQuery选择器和选取方法(一)">
+<meta name="twitter:description" content="在 h5 开发中,JQuery 选择器经常用到,也尤其重要,用好选择器,能让你的开发事半功倍.下面是整理的 jquery 选择的使用和方法.">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Mist',
+    version: '5.1.4',
+    sidebar: {"position":"right","display":"post","offset":12,"offset_float":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn"}},
+    duoshuo: {
+      userId: '0',
+      author: 'Author'
+    },
+    algolia: {
+      applicationID: 'A9YP4AYYAE',
+      apiKey: '8984b7a5cadb7b8c00bfdf1748e12bbc',
+      indexName: 'blog',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"搜索文章","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="https://timding.top/2017/09/26/jQuery选择器和选取方法/"/>
+
+
+
+
+
+  <title>jQuery选择器和选取方法(一) | TIM'S BLOG</title>
+  
+
+
+
+
+
+  <script type="text/javascript">
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?63c30a6d59962dc6f0096780a6802331";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+
+
+  <script src="/js/src/photoswipe.min.js?v=5.1.4"></script>
+  <script src="/js/src/photoswipe-ui-default.min.js?v=5.1.4"></script>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="en">
+
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-right page-post-detail">
+    <div class="headband"></div>
+    <a href="https://github.com/lovexinforever" target="_blank" class="github-corner" aria-label="View source on Github"><svg width="80" height="80" viewBox="0 0 250 250" style="fill:#151513; color:#fff; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta custom-logo">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">TIM'S BLOG</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <h1 class="site-subtitle" itemprop="description">A little-known program</h1>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            Home
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            About
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            Tags
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            Categories
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            Archives
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-photos">
+          <a href="/photos/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-photo"></i> <br />
+            
+            Photos
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-schedule">
+          <a href="/schedule/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-calendar"></i> <br />
+            
+            Schedule
+          </a>
+        </li>
+      
+
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
+            
+            Search
+          </a>
+        </li>
+      
+    </ul>
+  
+
+  
+    <div class="site-search">
+      
+  <div class="popup search-popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+    <div class="local-search-input-wrapper">
+      <input autocomplete="on"
+             placeholder="Searching..." spellcheck="false"
+             type="text" id="local-search-input">
+    </div>
+  </div>
+  <div id="local-search-result"></div>
+</div>
+
+
+
+    </div>
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://timding.top/2017/09/26/jQuery选择器和选取方法/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="TIMDING">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/default_avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="TIM'S BLOG">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h2 class="post-title" itemprop="name headline">jQuery选择器和选取方法(一)</h2>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-09-26T16:36:10+08:00">
+                2017-09-26
+              </time>
+            
+
+            
+              <span class="post-meta-divider">|</span>
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-check-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Post modified&#58;</span>
+              
+              <time title="Post modified" itemprop="dateModified" datetime="2018-06-25T19:29:16+08:00">
+                2018-06-25
+              </time>
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Technology/" itemprop="url" rel="index">
+                    <span itemprop="name">Technology</span>
+                  </a>
+                </span>
+
+                
+                
+                  , 
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Technology/HTML5/" itemprop="url" rel="index">
+                    <span itemprop="name">HTML5</span>
+                  </a>
+                </span>
+
+                
+                
+                  , 
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Technology/HTML5/JS/" itemprop="url" rel="index">
+                    <span itemprop="name">JS</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+            <div class="post-wordcount">
+              
+                
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Words count in article&#58;</span>
+                
+                <span title="Words count in article">
+                  2,238
+                </span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Reading time &asymp;</span>
+                
+                <span title="Reading time">
+                  8
+                </span>
+              
+            </div>
+          
+
+        
+          
+          
+            <span class="post-meta-item-icon">
+                  <i class="fa fa-newspaper-o jingping">Boutique</i>
+                </span>
+            
+          
+
+
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p>在 h5 开发中,<code>JQuery</code> 选择器经常用到,也尤其重要,用好选择器,能让你的开发事半功倍.下面是整理的 jquery 选择的使用和方法.<br><a id="more"></a></p>
+<h2 id="jQuery选择器"><a href="#jQuery选择器" class="headerlink" title="jQuery选择器"></a>jQuery选择器</h2><p>在CSS3选择器标淮草案定义的选择器语法中，jQuery支持相当完整的一套子集，同时还添加了一些非标准但很有用的伪类。注意:本节讲述的是 jQuery选择器。其中有不少选择器(但不是全部)可以在CSS样式表中使用。选择器语法有三层结构。你肯定已经见过选择器中最简单的形式。<code>”#test”</code>选取id属性为”test”的元素。<code>”blockquote”</code>选取文档中的所有<code>&lt;blockquote&gt;</code>元素，而<code>”div.note”</code> 则选取所有class属性为<code>”note”</code>的<code>div</code>元素。简单选择器可以组合成“组合选择器”，比如 <code>“div.note&gt;p”</code>和<code>“blockquote i”</code>，只要用组合字符做分隔符就行。简单选择器和组合选择器还可以分组成逗号分隔的列表。这种选择器组是传递给$()函数最常见的形式。在解释组合选择器 和选择器组之前，我们必须先了解简单选择器的语法。</p>
+<h2 id="简单选择器"><a href="#简单选择器" class="headerlink" title="简单选择器"></a>简单选择器</h2><p>简单选择器的开头部分(显式或隐式地)是标签类型声明。例如，如果只对<code>&lt;p&gt;</code>元素感兴趣，简单选择器可以用<code>“p”</code>开头。如果选取的元素和标签名无关，则可以使用通配符<code>“*”</code>号来代替。如果选择器没有以标签名或通配符开头，则隐式含有一个通配符。</p>
+<p>标签名或通配符指定了备选文档元素的一个初始集。在简单选择器中，标签类型声明之后的部分由零个或多个过滤器组成。过滤器从左到右应用，和书写顺序一致，其中每一个都会缩小选中元素集。下表列举了jQuery支持的过滤器。</p>
+<table><thead><tr><td>标签</td><td>描述</td></tr></thead><tbody><tr><td>#id</td><td>匹配id属性为id的元素。在有效的}ITML文档中，永远不会出现多个元素拥有相同的ID，因此该过滤器通常作为独立选择器来使用</td></tr><tr><td>.class</td><td>匹配class属性(是一串被解析成用空格分隔的单词列表)含有class单词的所有元素</td></tr><tr><td>[attr]</td><td>匹配拥有attr属性(和值无关)的所有元素</td></tr><tr><td>[attr=val]</td><td>匹配拥有attr属性且值为val的所有元素</td></tr><tr><td>[attr!=val]</td><td>匹配没有attr属性、或attr属性的值不为val的所有元素((jQuery的扩展)</td></tr><tr><td>[attr^=val]</td><td>匹配attr属性值以val开头的元素</td></tr><tr><td>[attr$=val]</td><td>匹配attr属性值以val结尾的元素</td></tr><tr><td>[attr*=val]</td><td>匹配attr属性值含有val的元素</td></tr><tr><td>[attr~=val]</td><td>当其attr属性解释为一个由空格分隔的单词列表时，匹配其中包含单词val的元素。因此选择器<code>“div.note”</code>与<code>“div [class~=note]”</code>相同</td></tr><tr><td>[attr|=val]</td><td>    匹配正在动画中的元素，该动画是由jQuery产生的</td></tr><tr><td>:button</td><td>匹配<code>&lt;button type=”button”&gt;</code>和<code>&lt;input type=”button”&gt;</code>元素(jQuery的扩展)</td></tr><tr><td>:checkbox</td><td>匹配<code>&lt;input type=”checkbox”&gt;</code>元素( jQuery的扩展)，当显式带有input标签前缀<code>”input:checkbox”</code>时，该过滤器更高效</td></tr><tr><td>:checked</td><td>匹配选中的input元素</td></tr><tr><td>:contains(text)</td><td>匹配含有指定text文本的元素(jQuery的扩展)。该过滤器中的圆括号确定了文本的范围—无须添加引号。被过滤的元素的文本是由textContent或innerText属性来决定的—这是原始文档文本，不带标签和注释</td></tr><tr><td>:disabled</td><td>匹配禁用的元素</td></tr><tr><td>:empty</td><td>匹配没有子节点、没有文本内容的元素</td></tr><tr><td>:enabled</td><td>匹配没有禁用的元素</td></tr><tr><td>:eq(n)</td><td>匹配基于文档顺序、序号从0开始的选中列表中的第n个元素(jQuery的扩展)</td></tr><tr><td>:even</td><td>匹配列表中偶数序号的元素。由于第一个元素的序号是0，因此实际上选中的是第1个、第3个、第5个等元素(jQuery的扩展)</td></tr><tr><td>:file</td><td>    匹配<code>&lt;input type=”file”&gt;</code>元素(jQuery的扩展)</td></tr><tr><td>:first</td><td>匹配列表中的第一个元素。和<code>“:eq(0)”</code>相同(jQuery的扩展)</td></tr><tr><td>:first-child</td><td>匹配的元素是其父节点的第一个子元素。注意:这与“:first”不同</td></tr><tr><td>:gt(n)</td><td>匹配基于文档顺序、序号从0开始的选中列表中序号大于n的元素( jQuery的扩展)</td></tr><tr><td>:has(sel)</td><td>匹配的元素拥有匹配内嵌选择器sel的子孙元素</td></tr><tr><td>:header</td><td>匹配所有头元素:<code>&lt;h1&gt;</code>, <code>&lt;h2&gt;</code>, <code>&lt;h3&gt;</code>, <code>&lt;h4&gt;</code>, <code>&lt;h5&gt;</code>或<code>&lt;h6&gt;</code> (jQuery的扩展)</td></tr><tr><td>:hidden</td><td>匹配所有在屏幕上不可见的元素:大体上可以认为这些元素的offsetWidth和offsetHeight为0</td></tr><tr><td>:image</td><td>匹配<code>&lt;input type=”image”&gt;</code>元素。注意该过滤器不会匹配<code>&lt;img&gt;</code>元素( jQuery的扩展)</td></tr><tr><td>:input</td><td>匹配用户输入元素:<code>&lt;input&gt;</code>, <code>&lt;textarea&gt;</code>, <code>&lt;select&gt;</code>和<code>&lt;button&gt;</code></td></tr><tr><td>:last</td><td>匹配选中列表中的最后一个元素</td></tr><tr><td>:last-child</td><td>匹配的元素是其父节点的最后一个子元素。注意:这与<code>“:last”</code>不同</td></tr><tr><td><code>:lt(n)</code></td><td>匹配基于文档顺序、序号从0开始的选中列表中序号小于n的元素</td></tr><tr><td>:not(sel)</td><td>匹配的元素不匹配内嵌选择器sel</td></tr><tr><td>:nth(n)</td><td>与<code>“:eq(n)”</code>相同</td></tr><tr><td>:nth-child(n)</td><td>匹配的元素是其父节点的第n个子元素。。可以是数值、单词even,单词odd或计算公式。 使用<code>“:nth-child(even)”</code>来选取那些在其父节点的子元素中排行第2或第4等序号的元素。使用<code>“:nth-child(odd)”</code>来选取那 些在其父节点的子元素中排行第1、第3等序号的元素。<br>更常见的情况是，n是xn或x n+y这种计算公式，其中x和y是整数，n是字面量n。因此可以用<code>nth-child(3n+1)</code>来选取第1个、第4个、第7个等元素。<br>注意该过滤器的序号是从1开始的，因此如果一个元素是其父节点的第一个子元素，会认为它是奇数元素，匹配的是3n+1，而不是3n。要和<code>“:even</code>以及<code>“:odd”</code>过滤器区分开来，后者匹配的序号是从0开始的。</td></tr><tr><td>:odd</td><td>匹配列表中奇数(从0开始)序号的元素。注意序号为1和3的元素分别是第2个和第4个匹配元素</td></tr></tbody></table>
+
+<p>注意:表中列举的部分选择器在圆括号中接受参数。例如，下面这个选择器选取的元素在其父节点的子元素中排行第1或第2等，只要它们含有<code>“JavaScript”</code>单词，就不包含元素。</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">p</span><span class="selector-pseudo">:nth-child(3n+1)</span>: <span class="selector-tag">text</span> (<span class="selector-tag">JavaScript</span>)<span class="selector-pseudo">:not(</span><span class="selector-pseudo">:has(a))</span></span><br></pre></td></tr></table></figure>
+<p>通常来说，指定标签类型前缀，可以让过滤器的运行更高效。例如，不要简单使用<code>”:radio”</code>来选取单选框按钮，使用<code>“input:radio”</code>会 更好。ID过滤器是个例外，不添加标签前缀时它会更高效。例如，选择器“#address”通常比更明确的“form#address”更高效。</p>
+<h2 id="组合选择器"><a href="#组合选择器" class="headerlink" title="组合选择器"></a>组合选择器</h2><p>使用特殊操作符或“组合符”可以将简单选择器组合起来，表达文档树中元素之间的关系。下表列举了jQuery支持的组合选择器。这些组合选择器与CSS3支持的组合选择器是一样的。<br>下面是组合选择器的一些例子:<br><figure class="highlight gherkin"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">"blockquote i"</span>              //匹配<span class="variable">&lt;blockquote&gt;</span>里的<span class="variable">&lt;i&gt;</span>元素</span><br><span class="line"><span class="string">"ol &gt; li"</span>                   //<span class="variable">&lt;1i&gt;</span>元素是<span class="variable">&lt;of&gt;</span>的直接子元素</span><br><span class="line"><span class="string">"#output+*"</span>                 //id=<span class="string">"output"</span>元素后面的兄弟元素</span><br><span class="line"><span class="string">"div.note &gt; h1+p"</span>           //紧跟<span class="variable">&lt;h1&gt;</span>的<span class="variable">&lt;P&gt;</span>元素，在<span class="variable">&lt;div class="note"&gt;</span>里面</span><br></pre></td></tr></table></figure></p>
+<p>注意组合选择器并不限于组合两个选择器:组合三个甚至更多选择器也是允许的。组合选择器从左到右处理。</p>
+<h2 id="选择器组"><a href="#选择器组" class="headerlink" title="选择器组"></a>选择器组</h2><p>传递给$()函数(或在样式表中使用)的选择器就是选择器组，这是一个逗号分隔的列表，由一个或多个简单选择器或组合选择器构成。选择器组匹配的元 素只要匹配该选择器组中的任何一个选择器就行。对我们来说，一个简单选择器也可以认为是一个选择器组。下面是选择器组的一些例子:<br><figure class="highlight gherkin"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">"h1, h2,h3"</span>             //匹配<span class="variable">&lt;h1&gt;</span>, <span class="variable">&lt;h2&gt;</span>和<span class="variable">&lt;h3&gt;</span>元素</span><br><span class="line"><span class="string">"#p1, #p2, #p3"</span>         //匹配id为p1, p2或p3的元素</span><br><span class="line"><span class="string">"div.note, p.note"</span>      //匹配class=<span class="string">"note"</span>的<span class="variable">&lt;div&gt;</span>和<span class="variable">&lt;P&gt;</span>元素</span><br><span class="line"><span class="string">"body&gt;p,div.note&gt;p"</span>     //<span class="variable">&lt;body&gt;</span>和<span class="variable">&lt;div class="note"&gt;</span>的<span class="variable">&lt;P&gt;</span>子元素</span><br></pre></td></tr></table></figure></p>
+<p>注意:CSS和jQuery选择器语法允许在简单选择器的某些过滤器中使用圆括号，但并不允许使用圆括号来进行更常见的分组。例如，不能把选择器组或组合选择器放在圆括号中并且当成简单选择器:<br><figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">(<span class="selector-tag">h1</span>, <span class="selector-tag">h2</span>, h3)+<span class="selector-tag">p</span>          <span class="comment">//非法</span></span><br><span class="line">h1+<span class="selector-tag">p</span>, h2+<span class="selector-tag">p</span>, h3+<span class="selector-tag">p</span>        <span class="comment">//正确的写法</span></span><br></pre></td></tr></table></figure></p>
+<h2 id="总结语"><a href="#总结语" class="headerlink" title="总结语"></a>总结语</h2><p>到此讲解了 jquery 的选择器.下一篇文章<a href="https://lovexinforever.github.io/2017/09/27/jQuery选择器和选取方法-二/" target="_blank" rel="noopener">将讲解 选择器的选取方法.</a></p>
+
+      
+    </div>
+    
+    
+    
+    
+    <div>
+    
+      
+        <div class="post-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+          
+          
+            <div class="post-gallery-row">
+              <a class="post-gallery-img fancybox"
+                 href="https://s.click.taobao.com/t?e=m%3D2%26s%3DQ7%2BOxHRJNU8cQipKwQzePCperVdZeJviK7Vc7tFgwiFRAdhuF14FMSjJriMKVvzd5x%2BIUlGKNpUKzRB5pSb%2B3oLgBNn%2Fh8Y9fs5VlYBlFz5kblEZQzGoFcs%2Fhc73tO6KVYo%2BqyT%2FBa1NrKwvDJNPXkIGbLNY5ut4zueC0P1cNS9iw0%2FdWyiVaogaseAKBk0cTbU9KzMTtxpe7auY0HPYWszlTEcWhO9mCmht7GX%2FH9k%3D" rel="gallery_" target="_blank"
+                 itemscope itemtype="http://schema.org/ImageObject" itemprop="url">
+                <img src="https://gw.alicdn.com/tfs/TB1p12MsQ9WBuNjSspeXXaz5VXa-440-180.jpg" itemprop="contentUrl" alt="天猫618"/>
+              </a>
+            
+          
+            
+              <a class="post-gallery-img fancybox"
+                 href="https://s.click.taobao.com/t?e=m%3D2%26s%3D2c9N%2F89tPiMcQipKwQzePCperVdZeJviK7Vc7tFgwiFRAdhuF14FMXJZeCVJPqDB8sviUM61dt0KzRB5pSb%2B3oLgBNn%2Fh8Y9fs5VlYBlFz5kblEZQzGoFcs%2Fhc73tO6KVYo%2BqyT%2FBa1NrKwvDJNPXkIGbLNY5ut4zueC0P1cNS%2B%2BUEclaRYva8F8WBkZipnv9sOkOOEWZ4E%2FnCA8IhtTQhnqXdg7YFDycSpj5qSCmbA%3D" rel="gallery_" target="_blank"
+                 itemscope itemtype="http://schema.org/ImageObject" itemprop="url">
+                <img src="https://img.alicdn.com/tfs/TB125UMsMmTBuNjy1XbXXaMrVXa-440-180.jpg" itemprop="contentUrl" alt="2018年618理想生活狂欢季——聚划算主会场"/>
+              </a>
+            
+          
+            
+              <a class="post-gallery-img fancybox"
+                 href="https://s.click.taobao.com/t?e=m%3D2%26s%3D5xcD%2FIEjdhYcQipKwQzePCperVdZeJviK7Vc7tFgwiFRAdhuF14FMUG5eE0BPbCdxq3IhSJN6GQKzRB5pSb%2B3oLgBNn%2Fh8Y9fs5VlYBlFz5kblEZQzGoFcs%2Fhc73tO6KVYo%2BqyT%2FBa1NrKwvDJNPXkIGbLNY5ut4zueC0P1cNS%2B6zThPYvErzhJBFs1%2FyLxVPxey8%2Bhd8pyvTW5l3DCD30V92HL3DKLNSqwyt%2BH6DtO%2FMqT4SeHHMKTHNVRq3ENViYq%2BoOM2USF%2Bn%2B1pvicu6FXll1U39L8dNcwDbqGDeU3JefVee9XDEgxYVk%2BaFSeXxiXvDf8DaRs%3D" rel="gallery_" target="_blank"
+                 itemscope itemtype="http://schema.org/ImageObject" itemprop="url">
+                <img src="https://img.alicdn.com/tfs/TB1GnfasntYBeNjy1XdXXXXyVXa-440-180.jpg" itemprop="contentUrl" alt="2018年618理想生活狂欢节—消费电子主会场"/>
+              </a>
+            </div>
+          
+            <div class="post-gallery-row">
+              <a class="post-gallery-img fancybox"
+                 href="https://s.click.taobao.com/t?e=m%3D2%26s%3DR6DyZeS%2BGoYcQipKwQzePCperVdZeJviK7Vc7tFgwiFRAdhuF14FMc2RXWXrk1qW1aH1Hk3GeOgKzRB5pSb%2B3oLgBNn%2Fh8Y9fs5VlYBlFz5kblEZQzGoFcs%2Fhc73tO6KVYo%2BqyT%2FBa1NrKwvDJNPXkIGbLNY5ut4zueC0P1cNS%2B6zThPYvErzhJBFs1%2FyLxVPxey8%2Bhd8pxWH6t8RXhbUYrLrKJVVdmfmL0G1vzYK1gI0mywmx5qSsYMXU3NNCg%2F" rel="gallery_" target="_blank"
+                 itemscope itemtype="http://schema.org/ImageObject" itemprop="url">
+                <img src="https://gw.alicdn.com/tfs/TB1a4MnsNGYBuNjy0FnXXX5lpXa-440-180.jpg" itemprop="contentUrl" alt="2018年618理想生活狂欢季-天猫超市主会场"/>
+              </a>
+            
+          
+
+          
+          
+        </div>
+      
+    </div>
+    
+
+    
+
+    
+      <div>
+        <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+  <div>Adhere to original technology sharing, your support will encourage me to continue to create！</div>
+  <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+    <span>Donate</span>
+  </button>
+  <div id="QR" style="display: none;">
+
+    
+      <div id="wechat" style="display: inline-block">
+        <img id="wechat_qr" src="/images/weixinpay.jpeg" alt="TIMDING WeChat Pay"/>
+        <p>WeChat Pay</p>
+      </div>
+    
+
+    
+      <div id="alipay" style="display: inline-block">
+        <img id="alipay_qr" src="/images/alipay.jpeg" alt="TIMDING Alipay"/>
+        <p>Alipay</p>
+      </div>
+    
+
+    
+
+  </div>
+</div>
+
+      </div>
+    
+
+    
+      <div>
+        <ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>Post author:</strong>
+    TIMDING
+  </li>
+  <li class="post-copyright-link">
+    <strong>Post link:</strong>
+    <a href="https://timding.top/2017/09/26/jQuery选择器和选取方法/" title="jQuery选择器和选取方法(一)">https://timding.top/2017/09/26/jQuery选择器和选取方法/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>Copyright Notice: </strong>
+    All articles in this blog are licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" rel="external nofollow" target="_blank">CC BY-NC-SA 3.0</a> unless stating additionally.
+  </li>
+</ul>
+
+      </div>
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/HTML5/" rel="tag" class="fa fa-tag"> HTML5</a>
+          
+            <a href="/tags/js/" rel="tag" class="fa fa-tag"> js</a>
+          
+            <a href="/tags/JQuery/" rel="tag" class="fa fa-tag"> JQuery</a>
+          
+            <a href="/tags/选择器/" rel="tag" class="fa fa-tag"> 选择器</a>
+          
+        </div>
+      
+
+      
+      
+        <div class="post-widgets">
+        
+          <div class="wp_rating">
+            <div id="wpac-rating"></div>
+          </div>
+        
+
+        
+        </div>
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2017/09/25/Html5-新元素/" rel="next" title="Html5 新元素">
+                <i class="fa fa-chevron-left"></i> Html5 新元素
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2017/09/27/jQuery选择器和选取方法-二/" rel="prev" title="jQuery选择器和选取方法(二)">
+                jQuery选择器和选取方法(二) <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+        
+  <div class="bdsharebuttonbox">
+    <a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+    <a href="#" class="bds_douban" data-cmd="douban" title="分享到豆瓣网"></a>
+    <a href="#" class="bds_sqq" data-cmd="sqq" title="分享到QQ好友"></a>
+    <a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a>
+    <a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>
+    <a href="#" class="bds_tieba" data-cmd="tieba" title="分享到百度贴吧"></a>
+    <a href="#" class="bds_twi" data-cmd="twi" title="分享到Twitter"></a>
+    <a href="#" class="bds_fbook" data-cmd="fbook" title="分享到Facebook"></a>
+    <a href="#" class="bds_more" data-cmd="more"></a>
+    <a class="bds_count" data-cmd="count"></a>
+  </div>
+  <script>
+    window._bd_share_config = {
+      "common": {
+        "bdText": "",
+        "bdMini": "2",
+        "bdMiniList": false,
+        "bdPic": ""
+      },
+      "share": {
+        "bdSize": "16",
+        "bdStyle": "0"
+      },
+      "image": {
+        "viewList": ["tsina", "douban", "sqq", "qzone", "weixin", "twi", "fbook"],
+        "viewText": "分享到：",
+        "viewSize": "16"
+      }
+    }
+  </script>
+
+<script>
+  with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='//bdimg.share.baidu.com/static/api/js/share.js?cdnversion='+~(-new Date()/36e5)];
+</script>
+
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+      <div id="lv-container" data-id="city" data-uid="MTAyMC8zMDg3NC83NDIz"></div>
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            Overview
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          
+            <img class="site-author-image" itemprop="image"
+              src="/images/default_avatar.jpg"
+              alt="TIMDING" />
+          
+            <p class="site-author-name" itemprop="name">TIMDING</p>
+            <p class="site-description motion-element" itemprop="description"></p>
+        </div>
+
+        <nav class="site-state motion-element">
+
+          
+            <div class="site-state-item site-state-posts">
+            
+              <a href="/archives/">
+            
+                <span class="site-state-item-count">35</span>
+                <span class="site-state-item-name">posts</span>
+              </a>
+            </div>
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-categories">
+              <a href="/categories/index.html">
+                <span class="site-state-item-count">14</span>
+                <span class="site-state-item-name">categories</span>
+              </a>
+            </div>
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-tags">
+              <a href="/tags/index.html">
+                <span class="site-state-item-count">56</span>
+                <span class="site-state-item-name">tags</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        
+
+        <div class="links-of-author motion-element">
+          
+            
+              <span class="links-of-author-item">
+                <a href="https://github.com/lovexinforever" target="_blank" title="GitHub">
+                  
+                    <i class="fa fa-fw fa-github"></i>GitHub</a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="mailto:a514387454@gmail.com" target="_blank" title="E-Mail">
+                  
+                    <i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="http://weibo.com/5493554807" target="_blank" title="Weibo">
+                  
+                    <i class="fa fa-fw fa-weibo"></i>Weibo</a>
+              </span>
+            
+          
+        </div>
+
+        
+        
+
+        
+        
+          <div class="links-of-blogroll motion-element links-of-blogroll-inline">
+            <div class="links-of-blogroll-title">
+              <i class="fa  fa-fw fa-globe"></i>
+              友情链接
+            </div>
+            <ul class="links-of-blogroll-list">
+              
+                <li class="links-of-blogroll-item">
+                  <a href="http://wangrunqing.top/" title="骚气的射鸡师" target="_blank">骚气的射鸡师</a>
+                </li>
+              
+                <li class="links-of-blogroll-item">
+                  <a href="https://lwl666666.github.io" title="木子李" target="_blank">木子李</a>
+                </li>
+              
+                <li class="links-of-blogroll-item">
+                  <a href="https://smallpdf.com" title="pdf转换" target="_blank">pdf转换</a>
+                </li>
+              
+            </ul>
+          </div>
+        
+
+        
+
+
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#jQuery选择器"><span class="nav-number">1.</span> <span class="nav-text">jQuery选择器</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#简单选择器"><span class="nav-number">2.</span> <span class="nav-text">简单选择器</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#组合选择器"><span class="nav-number">3.</span> <span class="nav-text">组合选择器</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#选择器组"><span class="nav-number">4.</span> <span class="nav-text">选择器组</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#总结语"><span class="nav-number">5.</span> <span class="nav-text">总结语</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy;  2015 &mdash; 
+  <span itemprop="copyrightYear">2020</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">TIMDING</span>
+
+  
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-area-chart"></i>
+    </span>
+    
+      <span class="post-meta-item-text">Site words total count&#58;</span>
+    
+    <span title="Site words total count">
+      24.9k
+    </span>
+  
+  
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-eyedropper"></i>
+    </span>
+    <span class="post-meta-item-text">苏ICP备15028062号-2</span>
+  
+</div>
+
+        
+
+
+
+
+
+
+
+  <div style="display: none;">
+    <script src="//s95.cnzz.com/z_stat.php?id=1260290984&web_id=1260290984" language="JavaScript"></script>
+  </div>
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script type="text/javascript" src="//cdn.jsdelivr.net/jquery/2.1.3/jquery.min.js"></script>
+
+  
+  <script type="text/javascript" src="//cdn.jsdelivr.net/fastclick/1.0.6/fastclick.min.js"></script>
+
+  
+  <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.lazyload/1.9.3/jquery.lazyload.min.js"></script>
+
+  
+  <script type="text/javascript" src="//cdn.jsdelivr.net/velocity/1.2.3/velocity.min.js"></script>
+
+  
+  <script type="text/javascript" src="//cdn.jsdelivr.net/velocity/1.2.3/velocity.ui.min.js"></script>
+
+  
+  <script type="text/javascript" src="//cdn.jsdelivr.net/fancybox/2.1.5/jquery.fancybox.pack.js"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/photoswipe.min.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/photoswipe-ui-default.min.js?v=5.1.4"></script>
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/photoswipe.min.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/photoswipe-ui-default.min.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+    <script type="text/javascript">
+      (function(d, s) {
+        var j, e = d.getElementsByTagName(s)[0];
+        if (typeof LivereTower === 'function') { return; }
+        j = d.createElement(s);
+        j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+        j.async = true;
+        e.parentNode.insertBefore(j, e);
+      })(document, 'script');
+    </script>
+  
+
+
+
+
+
+
+
+
+  
+
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    var isXml = true;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length === 0) {
+      search_path = "search.xml";
+    } else if (/json$/i.test(search_path)) {
+      isXml = false;
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    var onPopupClose = function (e) {
+      $('.popup').hide();
+      $('#local-search-input').val('');
+      $('.search-result-list').remove();
+      $('#no-result').remove();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    }
+
+    function proceedsearch() {
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
+        .css('overflow', 'hidden');
+      $('.search-popup-overlay').click(onPopupClose);
+      $('.popup').toggle();
+      var $localSearchInput = $('#local-search-input');
+      $localSearchInput.attr("autocapitalize", "none");
+      $localSearchInput.attr("autocorrect", "off");
+      $localSearchInput.focus();
+    }
+
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+
+      // start loading animation
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay">' +
+          '<div id="search-loading-icon">' +
+          '<i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>' +
+          '</div>' +
+          '</div>')
+        .css('overflow', 'hidden');
+      $("#search-loading-icon").css('margin', '20% auto 0 auto').css('text-align', 'center');
+
+      $.ajax({
+        url: path,
+        dataType: isXml ? "xml" : "json",
+        async: true,
+        success: function(res) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = isXml ? $("entry", res).map(function() {
+            return {
+              title: $("title", this).text(),
+              content: $("content",this).text(),
+              url: $("url" , this).text()
+            };
+          }).get() : res;
+          var input = document.getElementById(search_id);
+          var resultContent = document.getElementById(content_id);
+          var inputEventFunction = function() {
+            var searchText = input.value.trim().toLowerCase();
+            var keywords = searchText.split(/[\s\-]+/);
+            if (keywords.length > 1) {
+              keywords.push(searchText);
+            }
+            var resultItems = [];
+            if (searchText.length > 0) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var hitCount = 0;
+                var searchTextCount = 0;
+                var title = data.title.trim();
+                var titleInLowerCase = title.toLowerCase();
+                var content = data.content.trim().replace(/<[^>]+>/g,"");
+                var contentInLowerCase = content.toLowerCase();
+                var articleUrl = decodeURIComponent(data.url);
+                var indexOfTitle = [];
+                var indexOfContent = [];
+                // only match articles with not empty titles
+                if(title != '') {
+                  keywords.forEach(function(keyword) {
+                    function getIndexByWord(word, text, caseSensitive) {
+                      var wordLen = word.length;
+                      if (wordLen === 0) {
+                        return [];
+                      }
+                      var startPosition = 0, position = [], index = [];
+                      if (!caseSensitive) {
+                        text = text.toLowerCase();
+                        word = word.toLowerCase();
+                      }
+                      while ((position = text.indexOf(word, startPosition)) > -1) {
+                        index.push({position: position, word: word});
+                        startPosition = position + wordLen;
+                      }
+                      return index;
+                    }
+
+                    indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
+                    indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
+                  });
+                  if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
+                    isMatch = true;
+                    hitCount = indexOfTitle.length + indexOfContent.length;
+                  }
+                }
+
+                // show search results
+
+                if (isMatch) {
+                  // sort index by position of keyword
+
+                  [indexOfTitle, indexOfContent].forEach(function (index) {
+                    index.sort(function (itemLeft, itemRight) {
+                      if (itemRight.position !== itemLeft.position) {
+                        return itemRight.position - itemLeft.position;
+                      } else {
+                        return itemLeft.word.length - itemRight.word.length;
+                      }
+                    });
+                  });
+
+                  // merge hits into slices
+
+                  function mergeIntoSlice(text, start, end, index) {
+                    var item = index[index.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    var hits = [];
+                    var searchTextCountInSlice = 0;
+                    while (position + word.length <= end && index.length != 0) {
+                      if (word === searchText) {
+                        searchTextCountInSlice++;
+                      }
+                      hits.push({position: position, length: word.length});
+                      var wordEnd = position + word.length;
+
+                      // move to next position of hit
+
+                      index.pop();
+                      while (index.length != 0) {
+                        item = index[index.length - 1];
+                        position = item.position;
+                        word = item.word;
+                        if (wordEnd > position) {
+                          index.pop();
+                        } else {
+                          break;
+                        }
+                      }
+                    }
+                    searchTextCount += searchTextCountInSlice;
+                    return {
+                      hits: hits,
+                      start: start,
+                      end: end,
+                      searchTextCount: searchTextCountInSlice
+                    };
+                  }
+
+                  var slicesOfTitle = [];
+                  if (indexOfTitle.length != 0) {
+                    slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
+                  }
+
+                  var slicesOfContent = [];
+                  while (indexOfContent.length != 0) {
+                    var item = indexOfContent[indexOfContent.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    // cut out 100 characters
+                    var start = position - 20;
+                    var end = position + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if (end < position + word.length) {
+                      end = position + word.length;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
+                  }
+
+                  // sort slices in content by search text's count and hits' count
+
+                  slicesOfContent.sort(function (sliceLeft, sliceRight) {
+                    if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
+                      return sliceRight.searchTextCount - sliceLeft.searchTextCount;
+                    } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
+                      return sliceRight.hits.length - sliceLeft.hits.length;
+                    } else {
+                      return sliceLeft.start - sliceRight.start;
+                    }
+                  });
+
+                  // select top N slices in content
+
+                  var upperBound = parseInt('1');
+                  if (upperBound >= 0) {
+                    slicesOfContent = slicesOfContent.slice(0, upperBound);
+                  }
+
+                  // highlight title and content
+
+                  function highlightKeyword(text, slice) {
+                    var result = '';
+                    var prevEnd = slice.start;
+                    slice.hits.forEach(function (hit) {
+                      result += text.substring(prevEnd, hit.position);
+                      var end = hit.position + hit.length;
+                      result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
+                      prevEnd = end;
+                    });
+                    result += text.substring(prevEnd, slice.end);
+                    return result;
+                  }
+
+                  var resultItem = '';
+
+                  if (slicesOfTitle.length != 0) {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>";
+                  } else {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + title + "</a>";
+                  }
+
+                  slicesOfContent.forEach(function (slice) {
+                    resultItem += "<a href='" + articleUrl + "'>" +
+                      "<p class=\"search-result\">" + highlightKeyword(content, slice) +
+                      "...</p>" + "</a>";
+                  });
+
+                  resultItem += "</li>";
+                  resultItems.push({
+                    item: resultItem,
+                    searchTextCount: searchTextCount,
+                    hitCount: hitCount,
+                    id: resultItems.length
+                  });
+                }
+              })
+            };
+            if (keywords.length === 1 && keywords[0] === "") {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>'
+            } else if (resultItems.length === 0) {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>'
+            } else {
+              resultItems.sort(function (resultLeft, resultRight) {
+                if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
+                  return resultRight.searchTextCount - resultLeft.searchTextCount;
+                } else if (resultLeft.hitCount !== resultRight.hitCount) {
+                  return resultRight.hitCount - resultLeft.hitCount;
+                } else {
+                  return resultRight.id - resultLeft.id;
+                }
+              });
+              var searchResultList = '<ul class=\"search-result-list\">';
+              resultItems.forEach(function (result) {
+                searchResultList += result.item;
+              })
+              searchResultList += "</ul>";
+              resultContent.innerHTML = searchResultList;
+            }
+          }
+
+          if ('auto' === 'auto') {
+            input.addEventListener('input', inputEventFunction);
+          } else {
+            $('.search-icon').click(inputEventFunction);
+            input.addEventListener('keypress', function (event) {
+              if (event.keyCode === 13) {
+                inputEventFunction();
+              }
+            });
+          }
+
+          // remove loading animation
+          $(".local-search-pop-overlay").remove();
+          $('body').css('overflow', '');
+
+          proceedsearch();
+        }
+      });
+    }
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+    $(document).on('keyup', function (event) {
+      var shouldDismissSearchPopup = event.which === 27 &&
+        $('.search-popup').is(':visible');
+      if (shouldDismissSearchPopup) {
+        onPopupClose();
+      }
+    });
+  </script>
+
+
+
+
+
+  
+
+  
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+
+
+  
+  <script type="text/javascript">
+  wpac_init = window.wpac_init || [];
+  wpac_init.push({widget: 'Rating', id: 7017,
+    el: 'wpac-rating',
+    color: 'fc6423'
+  });
+  (function() {
+    if ('WIDGETPACK_LOADED' in window) return;
+    WIDGETPACK_LOADED = true;
+    var mc = document.createElement('script');
+    mc.type = 'text/javascript';
+    mc.async = true;
+    mc.src = '//embed.widgetpack.com/widget.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(mc, s.nextSibling);
+  })();
+  </script>
+
+
+  
+  
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+          processEscapes: true,
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+        }
+      });
+    </script>
+
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for (i=0; i < all.length; i += 1) {
+          all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+      });
+    </script>
+    <script type="text/javascript" src="//cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  
+
+
+  
+
+
+
+  
+
+  
+
+</body>
+</html>
