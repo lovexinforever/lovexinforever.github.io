@@ -8,500 +8,11 @@
     
     
     
-  <url>
-    <loc>https://lovexinforever.github.io/2018/12/31/Mac%E4%B8%8A%E7%94%A8geektool%E6%98%BE%E7%A4%BA%E6%9C%80%E8%BF%91%E6%9C%80%E8%BF%91%E4%BA%94%E5%A4%A9%E7%9A%84%E5%A4%A9%E6%B0%94-%E8%BF%9B%E9%98%B6%E7%89%88-%E6%A0%B9%E6%8D%AE-ip-%E4%BD%8D%E7%BD%AE%E6%9D%A5%E6%98%BE%E7%A4%BA%E5%AF%B9%E5%BA%94%E5%9C%B0%E7%90%86%E4%BD%8D%E7%BD%AE%E7%9A%84%E5%A4%A9%E6%B0%94/</loc>
-    <lastmod>2021-02-22T06:04:16.881Z</lastmod>
-    <data>
-        <display>
-        <title>Mac上用geektool显示最近最近五天的天气(进阶版 根据 ip 位置来显示对应地理位置的天气)</title>
-        <pubTime>2018-12-31T12:04:20.000Z</pubTime>
-        
-        <tag>python</tag>
-         
-        <tag>geektool</tag>
-         
-        <tag>天气</tag>
-         
-        <tag>beautifulsoup</tag>
-         
-         
-           
-             
-              <breadCrumb title="Technology" url="https://lovexinforever.github.io/categories/Technology/"/>
-          
-             
-              <breadCrumb title="Python" url="https://lovexinforever.github.io/categories/Technology/Python/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://lovexinforever.github.io/2018/05/07/appveyor-%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA-hexo-%E5%8D%9A%E5%AE%A2%E5%A4%B1%E8%B4%A5/</loc>
-    <lastmod>2021-02-22T06:04:16.881Z</lastmod>
-    <data>
-        <display>
-        <title>appveyor 自动化构建 hexo 博客失败</title>
-        <pubTime>2018-05-07T12:38:37.000Z</pubTime>
-        
-        <tag>持续集成</tag>
-         
-        <tag>版本管理</tag>
-         
-        <tag>CI</tag>
-         
-        <tag>AppVeyor</tag>
-         
-         
-           
-             
-              <breadCrumb title="Technology" url="https://lovexinforever.github.io/categories/Technology/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://lovexinforever.github.io/2015/12/29/github-%E4%B8%8A%E4%BC%A0%E4%BB%A3%E7%A0%81-%E8%8F%9C%E9%B8%9F%E8%B6%85%E8%AF%A6%E7%BB%86%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2021-02-22T06:04:16.881Z</lastmod>
-    <data>
-        <display>
-        <title>github 上传代码 菜鸟超详细教程</title>
-        <pubTime>2015-12-29T16:52:30.000Z</pubTime>
-        
-        <tag>git</tag>
-         
-        <tag>github</tag>
-         
-         
-           
-             
-              <breadCrumb title="Technology" url="https://lovexinforever.github.io/categories/Technology/"/>
-          
-             
-              <breadCrumb title="Journal" url="https://lovexinforever.github.io/categories/Technology/Journal/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://lovexinforever.github.io/2017/10/31/git%E6%80%8E%E6%A0%B7%E5%88%A0%E9%99%A4%E6%9C%AA%E7%9B%91%E8%A7%86%E7%9A%84%E6%96%87%E4%BB%B6untracked-files/</loc>
-    <lastmod>2021-02-22T06:04:16.881Z</lastmod>
-    <data>
-        <display>
-        <title>git怎样删除未监视的文件untracked files</title>
-        <pubTime>2017-10-31T14:49:51.000Z</pubTime>
-        
-        <tag>git</tag>
-         
-        <tag>untracked</tag>
-         
-         
-           
-             
-              <breadCrumb title="Technology" url="https://lovexinforever.github.io/categories/Technology/"/>
-          
-             
-              <breadCrumb title="Git" url="https://lovexinforever.github.io/categories/Technology/Git/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://lovexinforever.github.io/2018/06/11/hexo-Next-%E6%80%8E%E6%A0%B7%E6%B7%BB%E5%8A%A0%E6%8E%A8%E5%B9%BF%E5%B9%BF%E5%91%8A%E9%93%BE%E6%8E%A5/</loc>
-    <lastmod>2021-02-22T06:04:16.881Z</lastmod>
-    <data>
-        <display>
-        <title>hexo + Next 怎样添加推广广告链接</title>
-        <pubTime>2018-06-11T16:09:23.000Z</pubTime>
-        
-        <tag>Hexo</tag>
-         
-        <tag>NexT</tag>
-         
-        <tag>广告</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://lovexinforever.github.io/2015/12/23/hexo-%E5%88%9B%E5%BB%BA%E6%96%87%E7%AB%A0-demo/</loc>
-    <lastmod>2021-02-22T06:04:16.881Z</lastmod>
-    <data>
-        <display>
-        <title>hexo 创建文章 demo</title>
-        <pubTime>2015-12-23T09:31:52.000Z</pubTime>
-        
-        <tag>hexo</tag>
-         
-        <tag>node.js</tag>
-         
-         
-           
-             
-              <breadCrumb title="Technology" url="https://lovexinforever.github.io/categories/Technology/"/>
-          
-             
-              <breadCrumb title="Journal" url="https://lovexinforever.github.io/categories/Technology/Journal/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://lovexinforever.github.io/2017/09/27/jQuery%E9%80%89%E6%8B%A9%E5%99%A8%E5%92%8C%E9%80%89%E5%8F%96%E6%96%B9%E6%B3%95-%E4%BA%8C/</loc>
-    <lastmod>2021-02-22T06:04:16.881Z</lastmod>
-    <data>
-        <display>
-        <title>jQuery选择器和选取方法(二)</title>
-        <pubTime>2017-09-27T14:17:23.000Z</pubTime>
-        
-        <tag>HTML5</tag>
-         
-        <tag>js</tag>
-         
-        <tag>JQuery</tag>
-         
-        <tag>选择器</tag>
-         
-         
-           
-             
-              <breadCrumb title="Technology" url="https://lovexinforever.github.io/categories/Technology/"/>
-          
-             
-              <breadCrumb title="HTML5" url="https://lovexinforever.github.io/categories/Technology/HTML5/"/>
-          
-             
-              <breadCrumb title="JS" url="https://lovexinforever.github.io/categories/Technology/HTML5/JS/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://lovexinforever.github.io/2017/09/26/jQuery%E9%80%89%E6%8B%A9%E5%99%A8%E5%92%8C%E9%80%89%E5%8F%96%E6%96%B9%E6%B3%95/</loc>
-    <lastmod>2021-02-22T06:04:16.881Z</lastmod>
-    <data>
-        <display>
-        <title>jQuery选择器和选取方法(一)</title>
-        <pubTime>2017-09-26T16:36:10.000Z</pubTime>
-        
-        <tag>HTML5</tag>
-         
-        <tag>js</tag>
-         
-        <tag>JQuery</tag>
-         
-        <tag>选择器</tag>
-         
-         
-           
-             
-              <breadCrumb title="Technology" url="https://lovexinforever.github.io/categories/Technology/"/>
-          
-             
-              <breadCrumb title="HTML5" url="https://lovexinforever.github.io/categories/Technology/HTML5/"/>
-          
-             
-              <breadCrumb title="JS" url="https://lovexinforever.github.io/categories/Technology/HTML5/JS/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://lovexinforever.github.io/2017/09/14/js-%E6%AD%A3%E5%88%99%E5%88%A4%E6%96%AD%E6%98%AF%E5%90%A6%E6%98%AF%E6%89%8B%E6%9C%BA%E5%8F%B7/</loc>
-    <lastmod>2021-02-22T06:04:16.881Z</lastmod>
-    <data>
-        <display>
-        <title>js 正则判断是否是手机号</title>
-        <pubTime>2017-09-14T11:20:14.000Z</pubTime>
-        
-        <tag>js</tag>
-         
-        <tag>正则</tag>
-         
-        <tag>判断手机号</tag>
-         
-         
-           
-             
-              <breadCrumb title="Technology" url="https://lovexinforever.github.io/categories/Technology/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://lovexinforever.github.io/2017/10/16/python-%E5%86%92%E6%B3%A1%E6%8E%92%E5%BA%8F/</loc>
-    <lastmod>2021-02-22T06:04:16.881Z</lastmod>
-    <data>
-        <display>
-        <title>python-冒泡排序</title>
-        <pubTime>2017-10-16T15:04:38.000Z</pubTime>
-        
-        <tag>python</tag>
-         
-        <tag>排序</tag>
-         
-        <tag>冒泡排序</tag>
-         
-         
-           
-             
-              <breadCrumb title="Technology" url="https://lovexinforever.github.io/categories/Technology/"/>
-          
-             
-              <breadCrumb title="Python" url="https://lovexinforever.github.io/categories/Technology/Python/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://lovexinforever.github.io/2019/10/10/react-native-BottomTabNavigator-%E7%82%B9%E5%87%BB%E6%89%93%E5%BC%80%E6%96%B0%E9%A1%B5%E9%9D%A2/</loc>
-    <lastmod>2021-02-22T06:04:16.881Z</lastmod>
-    <data>
-        <display>
-        <title>react native BottomTabNavigator 点击打开新页面</title>
-        <pubTime>2019-10-10T15:22:15.000Z</pubTime>
-        
-        <tag>react native</tag>
-         
-        <tag>rn</tag>
-         
-        <tag>bottomtabnavigator</tag>
-         
-         
-           
-             
-              <breadCrumb title="Technology" url="https://lovexinforever.github.io/categories/Technology/"/>
-          
-             
-              <breadCrumb title="ReactNative" url="https://lovexinforever.github.io/categories/Technology/ReactNative/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://lovexinforever.github.io/2020/08/07/react-native-%E4%BB%BF%E7%85%A7%E5%96%9C%E9%A9%AC%E6%8B%89%E9%9B%85%E9%9F%B3%E9%A2%91%E8%AF%A6%E6%83%85%E9%A1%B5%E7%9A%84%E6%BB%91%E5%8A%A8%E5%8D%A1%E7%89%87%E7%89%B9%E6%95%88/</loc>
-    <lastmod>2021-02-22T06:04:16.881Z</lastmod>
-    <data>
-        <display>
-        <title>react native 仿照喜马拉雅音频详情页的滑动卡片特效</title>
-        <pubTime>2020-08-07T11:23:24.000Z</pubTime>
-        
-        <tag>Hexo</tag>
-         
-        <tag>react native</tag>
-         
-        <tag>喜马拉雅</tag>
-         
-        <tag>滑动式卡片</tag>
-         
-         
-           
-             
-              <breadCrumb title="Technology" url="https://lovexinforever.github.io/categories/Technology/"/>
-          
-             
-              <breadCrumb title="ReactNative" url="https://lovexinforever.github.io/categories/Technology/ReactNative/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://lovexinforever.github.io/2017/10/26/%E4%B8%83%E9%98%B6%E9%AD%94%E6%96%B9%E4%B8%AD%E5%BF%83%E5%9D%97%E5%90%88%E5%B9%B6%E5%85%AC%E5%BC%8F-%E5%90%AB%E4%BA%94%E9%98%B6%E9%AD%94%E6%96%B9/</loc>
-    <lastmod>2021-02-22T06:04:16.881Z</lastmod>
-    <data>
-        <display>
-        <title>七阶魔方中心块合并公式(含五阶魔方)</title>
-        <pubTime>2017-10-26T15:33:02.000Z</pubTime>
-        
-        <tag>魔方</tag>
-         
-        <tag>七阶</tag>
-         
-        <tag>五阶</tag>
-         
-        <tag>中心块</tag>
-         
-         
-           
-             
-              <breadCrumb title="Entertainment" url="https://lovexinforever.github.io/categories/Entertainment/"/>
-          
-             
-              <breadCrumb title="Cube" url="https://lovexinforever.github.io/categories/Entertainment/Cube/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://lovexinforever.github.io/2016/06/01/%E5%85%AD%E4%B8%80%E5%84%BF%E7%AB%A5%E8%8A%82/</loc>
-    <lastmod>2021-02-22T06:04:16.881Z</lastmod>
-    <data>
-        <display>
-        <title>六一儿童节</title>
-        <pubTime>2016-06-01T09:44:58.000Z</pubTime>
-        
-        <tag>hexo</tag>
-         
-        <tag>node.js</tag>
-         
-         
-           
-             
-              <breadCrumb title="Journal" url="https://lovexinforever.github.io/categories/Journal/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://lovexinforever.github.io/2015/12/25/%E5%85%B3%E4%BA%8E%E7%94%A8-hexo-d-%E5%A4%B1%E8%B4%A5%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</loc>
-    <lastmod>2021-02-22T06:04:16.881Z</lastmod>
-    <data>
-        <display>
-        <title>关于用 hexo d 失败的解决方法</title>
-        <pubTime>2015-12-25T13:25:05.000Z</pubTime>
-        
-        <tag>hexo</tag>
-         
-         
-           
-             
-              <breadCrumb title="Technology" url="https://lovexinforever.github.io/categories/Technology/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://lovexinforever.github.io/2018/05/28/%E6%80%8E%E6%A0%B7%E4%BD%BF%E7%94%A8-git-%E5%91%BD%E4%BB%A4%E6%9D%A5%E6%93%8D%E4%BD%9C-svn-%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93/</loc>
-    <lastmod>2021-02-22T06:04:16.881Z</lastmod>
-    <data>
-        <display>
-        <title>怎样使用 git 命令来操作 svn 远程仓库</title>
-        <pubTime>2018-05-28T13:18:09.000Z</pubTime>
-        
-        <tag>git</tag>
-         
-        <tag>svn</tag>
-         
-         
-           
-             
-              <breadCrumb title="Technology" url="https://lovexinforever.github.io/categories/Technology/"/>
-          
-             
-              <breadCrumb title="Git" url="https://lovexinforever.github.io/categories/Technology/Git/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://lovexinforever.github.io/2016/05/30/%E6%90%AC%E5%AE%B6/</loc>
-    <lastmod>2021-02-22T06:04:16.881Z</lastmod>
-    <data>
-        <display>
-        <title>搬家</title>
-        <pubTime>2016-05-30T16:59:48.000Z</pubTime>
-        
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://lovexinforever.github.io/2018/05/08/%E7%83%AD%E4%BF%AE%E5%A4%8D%E6%96%B9%E6%A1%88%E8%AE%BE%E8%AE%A1%E6%96%87%E6%A1%A3/</loc>
-    <lastmod>2021-02-22T06:04:16.881Z</lastmod>
-    <data>
-        <display>
-        <title>热修复方案设计文档</title>
-        <pubTime>2018-05-08T12:46:41.000Z</pubTime>
-        
-        <tag>热修复</tag>
-         
-        <tag>hook</tag>
-         
-        <tag>dex</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://lovexinforever.github.io/2017/12/29/%E8%87%AA%E5%AE%9A%E4%B9%89view-%E4%B9%8B%E6%BF%80%E6%B4%BB%E7%A0%81%E9%AA%8C%E8%AF%81%E7%A0%81%E8%BE%93%E5%85%A5%E6%A1%86/</loc>
-    <lastmod>2021-02-22T06:04:16.881Z</lastmod>
-    <data>
-        <display>
-        <title>自定义view 之激活码验证码输入框</title>
-        <pubTime>2017-12-29T10:10:31.000Z</pubTime>
-        
-        <tag>android</tag>
-         
-        <tag>激活码</tag>
-         
-        <tag>验证码</tag>
-         
-        <tag>自定义输入框</tag>
-         
-         
-           
-             
-              <breadCrumb title="Technology" url="https://lovexinforever.github.io/categories/Technology/"/>
-          
-             
-              <breadCrumb title="Journal" url="https://lovexinforever.github.io/categories/Technology/Journal/"/>
-          
-             
-              <breadCrumb title="Android" url="https://lovexinforever.github.io/categories/Technology/Journal/Android/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-    
-    
-    
     
     
   <url>
     <loc>https://lovexinforever.github.io/2016/06/01/Android-Toast-%E7%B1%BB%E5%88%86%E8%A3%85/</loc>
-    <lastmod>2021-02-22T06:04:16.866Z</lastmod>
+    <lastmod>2021-05-24T06:12:41.768Z</lastmod>
     <data>
         <display>
         <title>Android Toast 类分装</title>
@@ -529,7 +40,7 @@
     
   <url>
     <loc>https://lovexinforever.github.io/2017/11/14/Android-%E5%BC%80%E5%8F%91-%E8%87%AA%E5%AE%9A%E4%B9%89%E8%B7%91%E9%A9%AC%E7%81%AF-TextView/</loc>
-    <lastmod>2021-02-22T06:04:16.866Z</lastmod>
+    <lastmod>2021-05-24T06:12:41.768Z</lastmod>
     <data>
         <display>
         <title>Android 开发 自定义跑马灯 TextView</title>
@@ -559,7 +70,7 @@
     
   <url>
     <loc>https://lovexinforever.github.io/2017/09/22/Android-%E8%8E%B7%E5%8F%96%E5%BD%93%E5%89%8D%E7%BD%91%E7%BB%9C%E8%BF%9E%E6%8E%A5%E7%B1%BB%E5%9E%8B/</loc>
-    <lastmod>2021-02-22T06:04:16.866Z</lastmod>
+    <lastmod>2021-05-24T06:12:41.768Z</lastmod>
     <data>
         <display>
         <title>Android 获取当前网络连接类型</title>
@@ -591,7 +102,7 @@
     
   <url>
     <loc>https://lovexinforever.github.io/2018/12/05/Android%E4%B8%AD%E5%BC%BA%E5%A4%A7%E7%9A%84%E6%8E%A7%E4%BB%B6%E5%BA%93-TDLibrary-%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0/</loc>
-    <lastmod>2021-02-22T06:04:16.866Z</lastmod>
+    <lastmod>2021-05-24T06:12:41.768Z</lastmod>
     <data>
         <display>
         <title>Android中强大的控件库 TDLibrary(持续更新)</title>
@@ -620,7 +131,7 @@
     
   <url>
     <loc>https://lovexinforever.github.io/2017/09/14/CSS%E5%AE%9E%E7%8E%B0%E5%8D%95%E8%A1%8C%E5%A4%9A%E8%A1%8C%E6%96%87%E6%9C%AC%E6%BA%A2%E5%87%BA%E6%98%BE%E7%A4%BA%E7%9C%81%E7%95%A5%E5%8F%B7(...)/</loc>
-    <lastmod>2021-02-22T06:04:16.866Z</lastmod>
+    <lastmod>2021-05-24T06:12:41.768Z</lastmod>
     <data>
         <display>
         <title>CSS实现单行、多行文本溢出显示省略号（…）</title>
@@ -652,7 +163,7 @@
     
   <url>
     <loc>https://lovexinforever.github.io/2018/05/29/Could-not-find-common-jar-android-arch-core-common-1-1-0/</loc>
-    <lastmod>2021-02-22T06:04:16.866Z</lastmod>
+    <lastmod>2021-05-24T06:12:41.768Z</lastmod>
     <data>
         <display>
         <title>Could not find common.jar (android.arch.core:common:1.1.0)</title>
@@ -678,7 +189,7 @@
     
   <url>
     <loc>https://lovexinforever.github.io/2018/04/20/Geektool-%E4%BD%BF%E7%94%A8-python-beautiful-%E5%AE%9E%E7%8E%B0%E6%8A%93%E5%8F%96%E5%A4%A9%E6%B0%94%E5%9B%BE%E6%A0%87/</loc>
-    <lastmod>2021-02-22T06:04:16.866Z</lastmod>
+    <lastmod>2021-05-24T06:12:41.768Z</lastmod>
     <data>
         <display>
         <title>Geektool 使用 python + beautiful 实现抓取天气图标</title>
@@ -707,7 +218,7 @@
     
   <url>
     <loc>https://lovexinforever.github.io/2018/04/19/Geektool-%E4%BD%BF%E7%94%A8-python-%E6%8A%93%E5%8F%96%E5%A4%A9%E6%B0%94%E6%98%BE%E7%A4%BA/</loc>
-    <lastmod>2021-02-22T06:04:16.866Z</lastmod>
+    <lastmod>2021-05-24T06:12:41.768Z</lastmod>
     <data>
         <display>
         <title>Geektool 使用 python+beautifulsoup 抓取天气显示</title>
@@ -736,7 +247,7 @@
     
   <url>
     <loc>https://lovexinforever.github.io/2017/09/18/Hexo-NexT-%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E7%9B%B8%E5%86%8C-%E4%B8%80/</loc>
-    <lastmod>2021-02-22T06:04:16.866Z</lastmod>
+    <lastmod>2021-05-24T06:12:41.768Z</lastmod>
     <data>
         <display>
         <title>Hexo+NexT 博客搭建相册(一)</title>
@@ -765,7 +276,7 @@
     
   <url>
     <loc>https://lovexinforever.github.io/2017/09/18/Hexo-NexT-%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E7%9B%B8%E5%86%8C-%E4%BA%8C/</loc>
-    <lastmod>2021-02-22T06:04:16.866Z</lastmod>
+    <lastmod>2021-05-24T06:12:41.768Z</lastmod>
     <data>
         <display>
         <title>Hexo+NexT 博客搭建相册(二)</title>
@@ -794,7 +305,7 @@
     
   <url>
     <loc>https://lovexinforever.github.io/2017/09/19/Hexo-NexT-%E5%A2%9E%E5%8A%A0%E7%B2%BE%E5%93%81%E6%96%87%E7%AB%A0%E6%96%B9%E6%B3%95/</loc>
-    <lastmod>2021-02-22T06:04:16.866Z</lastmod>
+    <lastmod>2021-05-24T06:12:41.768Z</lastmod>
     <data>
         <display>
         <title>Hexo+NexT 增加精品文章方法</title>
@@ -823,7 +334,7 @@
     
   <url>
     <loc>https://lovexinforever.github.io/2017/09/13/Hexo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E6%96%87%E7%AB%A0%E7%BD%AE%E9%A1%B6%E5%8A%9F%E8%83%BD/</loc>
-    <lastmod>2021-02-22T06:04:16.866Z</lastmod>
+    <lastmod>2021-05-24T06:12:41.768Z</lastmod>
     <data>
         <display>
         <title>Hexo博客添加文章置顶功能</title>
@@ -845,7 +356,7 @@
     
   <url>
     <loc>https://lovexinforever.github.io/2017/09/13/Hexo%E7%9A%84%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6%E4%B8%8E%E6%8C%81%E7%BB%AD%E9%9B%86%E6%88%90/</loc>
-    <lastmod>2021-02-22T06:04:16.866Z</lastmod>
+    <lastmod>2021-05-24T06:12:41.768Z</lastmod>
     <data>
         <display>
         <title>Hexo的版本控制与持续集成</title>
@@ -873,7 +384,7 @@
     
   <url>
     <loc>https://lovexinforever.github.io/2017/09/25/Html5-%E6%96%B0%E5%85%83%E7%B4%A0/</loc>
-    <lastmod>2021-02-22T06:04:16.866Z</lastmod>
+    <lastmod>2021-05-24T06:12:41.768Z</lastmod>
     <data>
         <display>
         <title>Html5 新元素</title>
@@ -898,7 +409,7 @@
     
   <url>
     <loc>https://lovexinforever.github.io/2018/05/17/Identifiers-must-have-user-defined-types-from-the-XML-file-View-is-missing/</loc>
-    <lastmod>2021-02-22T06:04:16.866Z</lastmod>
+    <lastmod>2021-05-24T06:12:41.768Z</lastmod>
     <data>
         <display>
         <title>Identifiers must have user defined types from the XML file. View is missing</title>
@@ -920,6 +431,474 @@
     </data>
     </url>
 
+    
+  <url>
+    <loc>https://lovexinforever.github.io/2018/12/31/Mac%E4%B8%8A%E7%94%A8geektool%E6%98%BE%E7%A4%BA%E6%9C%80%E8%BF%91%E6%9C%80%E8%BF%91%E4%BA%94%E5%A4%A9%E7%9A%84%E5%A4%A9%E6%B0%94-%E8%BF%9B%E9%98%B6%E7%89%88-%E6%A0%B9%E6%8D%AE-ip-%E4%BD%8D%E7%BD%AE%E6%9D%A5%E6%98%BE%E7%A4%BA%E5%AF%B9%E5%BA%94%E5%9C%B0%E7%90%86%E4%BD%8D%E7%BD%AE%E7%9A%84%E5%A4%A9%E6%B0%94/</loc>
+    <lastmod>2021-05-24T06:12:41.768Z</lastmod>
+    <data>
+        <display>
+        <title>Mac上用geektool显示最近最近五天的天气(进阶版 根据 ip 位置来显示对应地理位置的天气)</title>
+        <pubTime>2018-12-31T12:04:20.000Z</pubTime>
+        
+        <tag>python</tag>
+         
+        <tag>geektool</tag>
+         
+        <tag>天气</tag>
+         
+        <tag>beautifulsoup</tag>
+         
+         
+           
+             
+              <breadCrumb title="Technology" url="https://lovexinforever.github.io/categories/Technology/"/>
+          
+             
+              <breadCrumb title="Python" url="https://lovexinforever.github.io/categories/Technology/Python/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://lovexinforever.github.io/2018/05/07/appveyor-%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA-hexo-%E5%8D%9A%E5%AE%A2%E5%A4%B1%E8%B4%A5/</loc>
+    <lastmod>2021-05-24T06:12:41.768Z</lastmod>
+    <data>
+        <display>
+        <title>appveyor 自动化构建 hexo 博客失败</title>
+        <pubTime>2018-05-07T12:38:37.000Z</pubTime>
+        
+        <tag>持续集成</tag>
+         
+        <tag>版本管理</tag>
+         
+        <tag>CI</tag>
+         
+        <tag>AppVeyor</tag>
+         
+         
+           
+             
+              <breadCrumb title="Technology" url="https://lovexinforever.github.io/categories/Technology/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://lovexinforever.github.io/2017/10/31/git%E6%80%8E%E6%A0%B7%E5%88%A0%E9%99%A4%E6%9C%AA%E7%9B%91%E8%A7%86%E7%9A%84%E6%96%87%E4%BB%B6untracked-files/</loc>
+    <lastmod>2021-05-24T06:12:41.768Z</lastmod>
+    <data>
+        <display>
+        <title>git怎样删除未监视的文件untracked files</title>
+        <pubTime>2017-10-31T14:49:51.000Z</pubTime>
+        
+        <tag>git</tag>
+         
+        <tag>untracked</tag>
+         
+         
+           
+             
+              <breadCrumb title="Technology" url="https://lovexinforever.github.io/categories/Technology/"/>
+          
+             
+              <breadCrumb title="Git" url="https://lovexinforever.github.io/categories/Technology/Git/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://lovexinforever.github.io/2015/12/29/github-%E4%B8%8A%E4%BC%A0%E4%BB%A3%E7%A0%81-%E8%8F%9C%E9%B8%9F%E8%B6%85%E8%AF%A6%E7%BB%86%E6%95%99%E7%A8%8B/</loc>
+    <lastmod>2021-05-24T06:12:41.768Z</lastmod>
+    <data>
+        <display>
+        <title>github 上传代码 菜鸟超详细教程</title>
+        <pubTime>2015-12-29T16:52:30.000Z</pubTime>
+        
+        <tag>git</tag>
+         
+        <tag>github</tag>
+         
+         
+           
+             
+              <breadCrumb title="Technology" url="https://lovexinforever.github.io/categories/Technology/"/>
+          
+             
+              <breadCrumb title="Journal" url="https://lovexinforever.github.io/categories/Technology/Journal/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://lovexinforever.github.io/2015/12/23/hexo-%E5%88%9B%E5%BB%BA%E6%96%87%E7%AB%A0-demo/</loc>
+    <lastmod>2021-05-24T06:12:41.768Z</lastmod>
+    <data>
+        <display>
+        <title>hexo 创建文章 demo</title>
+        <pubTime>2015-12-23T09:31:52.000Z</pubTime>
+        
+        <tag>hexo</tag>
+         
+        <tag>node.js</tag>
+         
+         
+           
+             
+              <breadCrumb title="Technology" url="https://lovexinforever.github.io/categories/Technology/"/>
+          
+             
+              <breadCrumb title="Journal" url="https://lovexinforever.github.io/categories/Technology/Journal/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://lovexinforever.github.io/2017/09/27/jQuery%E9%80%89%E6%8B%A9%E5%99%A8%E5%92%8C%E9%80%89%E5%8F%96%E6%96%B9%E6%B3%95-%E4%BA%8C/</loc>
+    <lastmod>2021-05-24T06:12:41.768Z</lastmod>
+    <data>
+        <display>
+        <title>jQuery选择器和选取方法(二)</title>
+        <pubTime>2017-09-27T14:17:23.000Z</pubTime>
+        
+        <tag>HTML5</tag>
+         
+        <tag>js</tag>
+         
+        <tag>JQuery</tag>
+         
+        <tag>选择器</tag>
+         
+         
+           
+             
+              <breadCrumb title="Technology" url="https://lovexinforever.github.io/categories/Technology/"/>
+          
+             
+              <breadCrumb title="HTML5" url="https://lovexinforever.github.io/categories/Technology/HTML5/"/>
+          
+             
+              <breadCrumb title="JS" url="https://lovexinforever.github.io/categories/Technology/HTML5/JS/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://lovexinforever.github.io/2017/09/26/jQuery%E9%80%89%E6%8B%A9%E5%99%A8%E5%92%8C%E9%80%89%E5%8F%96%E6%96%B9%E6%B3%95/</loc>
+    <lastmod>2021-05-24T06:12:41.768Z</lastmod>
+    <data>
+        <display>
+        <title>jQuery选择器和选取方法(一)</title>
+        <pubTime>2017-09-26T16:36:10.000Z</pubTime>
+        
+        <tag>HTML5</tag>
+         
+        <tag>js</tag>
+         
+        <tag>JQuery</tag>
+         
+        <tag>选择器</tag>
+         
+         
+           
+             
+              <breadCrumb title="Technology" url="https://lovexinforever.github.io/categories/Technology/"/>
+          
+             
+              <breadCrumb title="HTML5" url="https://lovexinforever.github.io/categories/Technology/HTML5/"/>
+          
+             
+              <breadCrumb title="JS" url="https://lovexinforever.github.io/categories/Technology/HTML5/JS/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://lovexinforever.github.io/2017/09/14/js-%E6%AD%A3%E5%88%99%E5%88%A4%E6%96%AD%E6%98%AF%E5%90%A6%E6%98%AF%E6%89%8B%E6%9C%BA%E5%8F%B7/</loc>
+    <lastmod>2021-05-24T06:12:41.768Z</lastmod>
+    <data>
+        <display>
+        <title>js 正则判断是否是手机号</title>
+        <pubTime>2017-09-14T11:20:14.000Z</pubTime>
+        
+        <tag>js</tag>
+         
+        <tag>正则</tag>
+         
+        <tag>判断手机号</tag>
+         
+         
+           
+             
+              <breadCrumb title="Technology" url="https://lovexinforever.github.io/categories/Technology/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://lovexinforever.github.io/2017/10/16/python-%E5%86%92%E6%B3%A1%E6%8E%92%E5%BA%8F/</loc>
+    <lastmod>2021-05-24T06:12:41.768Z</lastmod>
+    <data>
+        <display>
+        <title>python-冒泡排序</title>
+        <pubTime>2017-10-16T15:04:38.000Z</pubTime>
+        
+        <tag>python</tag>
+         
+        <tag>排序</tag>
+         
+        <tag>冒泡排序</tag>
+         
+         
+           
+             
+              <breadCrumb title="Technology" url="https://lovexinforever.github.io/categories/Technology/"/>
+          
+             
+              <breadCrumb title="Python" url="https://lovexinforever.github.io/categories/Technology/Python/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://lovexinforever.github.io/2019/10/10/react-native-BottomTabNavigator-%E7%82%B9%E5%87%BB%E6%89%93%E5%BC%80%E6%96%B0%E9%A1%B5%E9%9D%A2/</loc>
+    <lastmod>2021-05-24T06:12:41.768Z</lastmod>
+    <data>
+        <display>
+        <title>react native BottomTabNavigator 点击打开新页面</title>
+        <pubTime>2019-10-10T15:22:15.000Z</pubTime>
+        
+        <tag>react native</tag>
+         
+        <tag>rn</tag>
+         
+        <tag>bottomtabnavigator</tag>
+         
+         
+           
+             
+              <breadCrumb title="Technology" url="https://lovexinforever.github.io/categories/Technology/"/>
+          
+             
+              <breadCrumb title="ReactNative" url="https://lovexinforever.github.io/categories/Technology/ReactNative/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://lovexinforever.github.io/2020/08/07/react-native-%E4%BB%BF%E7%85%A7%E5%96%9C%E9%A9%AC%E6%8B%89%E9%9B%85%E9%9F%B3%E9%A2%91%E8%AF%A6%E6%83%85%E9%A1%B5%E7%9A%84%E6%BB%91%E5%8A%A8%E5%8D%A1%E7%89%87%E7%89%B9%E6%95%88/</loc>
+    <lastmod>2021-05-24T06:12:41.768Z</lastmod>
+    <data>
+        <display>
+        <title>react native 仿照喜马拉雅音频详情页的滑动卡片特效</title>
+        <pubTime>2020-08-07T11:23:24.000Z</pubTime>
+        
+        <tag>Hexo</tag>
+         
+        <tag>react native</tag>
+         
+        <tag>喜马拉雅</tag>
+         
+        <tag>滑动式卡片</tag>
+         
+         
+           
+             
+              <breadCrumb title="Technology" url="https://lovexinforever.github.io/categories/Technology/"/>
+          
+             
+              <breadCrumb title="ReactNative" url="https://lovexinforever.github.io/categories/Technology/ReactNative/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://lovexinforever.github.io/2017/10/26/%E4%B8%83%E9%98%B6%E9%AD%94%E6%96%B9%E4%B8%AD%E5%BF%83%E5%9D%97%E5%90%88%E5%B9%B6%E5%85%AC%E5%BC%8F-%E5%90%AB%E4%BA%94%E9%98%B6%E9%AD%94%E6%96%B9/</loc>
+    <lastmod>2021-05-24T06:12:41.768Z</lastmod>
+    <data>
+        <display>
+        <title>七阶魔方中心块合并公式(含五阶魔方)</title>
+        <pubTime>2017-10-26T15:33:02.000Z</pubTime>
+        
+        <tag>魔方</tag>
+         
+        <tag>七阶</tag>
+         
+        <tag>五阶</tag>
+         
+        <tag>中心块</tag>
+         
+         
+           
+             
+              <breadCrumb title="Entertainment" url="https://lovexinforever.github.io/categories/Entertainment/"/>
+          
+             
+              <breadCrumb title="Cube" url="https://lovexinforever.github.io/categories/Entertainment/Cube/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://lovexinforever.github.io/2016/06/01/%E5%85%AD%E4%B8%80%E5%84%BF%E7%AB%A5%E8%8A%82/</loc>
+    <lastmod>2021-05-24T06:12:41.768Z</lastmod>
+    <data>
+        <display>
+        <title>六一儿童节</title>
+        <pubTime>2016-06-01T09:44:58.000Z</pubTime>
+        
+        <tag>hexo</tag>
+         
+        <tag>node.js</tag>
+         
+         
+           
+             
+              <breadCrumb title="Journal" url="https://lovexinforever.github.io/categories/Journal/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://lovexinforever.github.io/2015/12/25/%E5%85%B3%E4%BA%8E%E7%94%A8-hexo-d-%E5%A4%B1%E8%B4%A5%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</loc>
+    <lastmod>2021-05-24T06:12:41.768Z</lastmod>
+    <data>
+        <display>
+        <title>关于用 hexo d 失败的解决方法</title>
+        <pubTime>2015-12-25T13:25:05.000Z</pubTime>
+        
+        <tag>hexo</tag>
+         
+         
+           
+             
+              <breadCrumb title="Technology" url="https://lovexinforever.github.io/categories/Technology/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://lovexinforever.github.io/2018/05/28/%E6%80%8E%E6%A0%B7%E4%BD%BF%E7%94%A8-git-%E5%91%BD%E4%BB%A4%E6%9D%A5%E6%93%8D%E4%BD%9C-svn-%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93/</loc>
+    <lastmod>2021-05-24T06:12:41.768Z</lastmod>
+    <data>
+        <display>
+        <title>怎样使用 git 命令来操作 svn 远程仓库</title>
+        <pubTime>2018-05-28T13:18:09.000Z</pubTime>
+        
+        <tag>git</tag>
+         
+        <tag>svn</tag>
+         
+         
+           
+             
+              <breadCrumb title="Technology" url="https://lovexinforever.github.io/categories/Technology/"/>
+          
+             
+              <breadCrumb title="Git" url="https://lovexinforever.github.io/categories/Technology/Git/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://lovexinforever.github.io/2016/05/30/%E6%90%AC%E5%AE%B6/</loc>
+    <lastmod>2021-05-24T06:12:41.768Z</lastmod>
+    <data>
+        <display>
+        <title>搬家</title>
+        <pubTime>2016-05-30T16:59:48.000Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://lovexinforever.github.io/2018/05/08/%E7%83%AD%E4%BF%AE%E5%A4%8D%E6%96%B9%E6%A1%88%E8%AE%BE%E8%AE%A1%E6%96%87%E6%A1%A3/</loc>
+    <lastmod>2021-05-24T06:12:41.768Z</lastmod>
+    <data>
+        <display>
+        <title>热修复方案设计文档</title>
+        <pubTime>2018-05-08T12:46:41.000Z</pubTime>
+        
+        <tag>热修复</tag>
+         
+        <tag>hook</tag>
+         
+        <tag>dex</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://lovexinforever.github.io/2017/12/29/%E8%87%AA%E5%AE%9A%E4%B9%89view-%E4%B9%8B%E6%BF%80%E6%B4%BB%E7%A0%81%E9%AA%8C%E8%AF%81%E7%A0%81%E8%BE%93%E5%85%A5%E6%A1%86/</loc>
+    <lastmod>2021-05-24T06:12:41.768Z</lastmod>
+    <data>
+        <display>
+        <title>自定义view 之激活码验证码输入框</title>
+        <pubTime>2017-12-29T10:10:31.000Z</pubTime>
+        
+        <tag>android</tag>
+         
+        <tag>激活码</tag>
+         
+        <tag>验证码</tag>
+         
+        <tag>自定义输入框</tag>
+         
+         
+           
+             
+              <breadCrumb title="Technology" url="https://lovexinforever.github.io/categories/Technology/"/>
+          
+             
+              <breadCrumb title="Journal" url="https://lovexinforever.github.io/categories/Technology/Journal/"/>
+          
+             
+              <breadCrumb title="Android" url="https://lovexinforever.github.io/categories/Technology/Journal/Android/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+    
+    
     
   <url>
     <loc>https://lovexinforever.github.io/2017/09/20/%E6%9D%82%E6%83%B3/</loc>
