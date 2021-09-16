@@ -4,16 +4,16 @@ const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "version.json": "6a141a2a4082d9cb2bd141d9fdf17882",
-"index.html": "41abf7126c12becc0623f2cc1834f389",
-"/": "41abf7126c12becc0623f2cc1834f389",
-"main.dart.js": "acee19361cf5c8ebd5146dae5aaf9e2b",
+"index.html": "3fec83274a5691e4fdb95e9e83993cb1",
+"/": "3fec83274a5691e4fdb95e9e83993cb1",
+"main.dart.js": "d687a5ff377bef7a5a38db39e8dc2eca",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "manifest.json": "61533b8ac6165bbd576cec50c4afce26",
-"assets/AssetManifest.json": "f1c7aa34fba124dc03ab60193d372a84",
-"assets/NOTICES": "e6876bf40c8eef8134f4056db174bc0a",
-"assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
+"assets/AssetManifest.json": "6709e8c127c1426dcb130bda42aa9d27",
+"assets/NOTICES": "eed1bf1b50ca1a02fb0fc133eb94197a",
+"assets/FontManifest.json": "f0ff75cee87c68d56443d6c0b5a7ed88",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
 "assets/fonts/MaterialIcons-Regular.otf": "4e6447691c9509f7acdbf8a931a85ca1",
 "assets/assets/images/icon_close.png": "1acf3d5a01a107fea603a5900531cdf9",
@@ -36,7 +36,14 @@ const RESOURCES = {
 "assets/assets/images/3.0x/icon_fret_right.png": "27c5a6b58ecf8b65a9f1e5de3424a681",
 "assets/assets/images/3.0x/icon_fret_left.png": "ff015c7a7911d4e5072c6b039d5465e3",
 "assets/assets/images/icon_fret_right.png": "69b8ebecb0d92e637958bbc7e5abfb6a",
-"assets/assets/images/icon_fret_left.png": "6243198272f43b30fdf792f4009dabcd"
+"assets/assets/images/icon_fret_left.png": "6243198272f43b30fdf792f4009dabcd",
+"assets/assets/font/Barlow-RegularCondensed.woff2.ttf": "b8770eb3d5e9385812a3796a22cb3882",
+"assets/assets/font/AlegreyaSansSC-Light.ttf": "1dba67afea2cf6f7b0a2b190871d0c91",
+"assets/assets/font/lan_ting_bold.TTF": "c21f337bd271acf8f37c901e78e4c091",
+"assets/assets/font/lan_ting.TTF": "2b2a14d391483ef72db9b4b7a7cc3350",
+"assets/assets/font/AlegreyaSansSC-Black.ttf": "ab3095a5d7b13c0e42dd80c1690fb92a",
+"assets/assets/font/Barlow%2520Condensed%2520ExtraBold.woff.ttf": "494f0e72991704d56eb7a0a1ea4a12fd",
+"assets/assets/font/you_she_title_black.ttf": "1726685ca93be4e04930d6561afd1d68"
 };
 
 // The application shell files that are downloaded before a service worker can
